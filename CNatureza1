@@ -1,0 +1,26 @@
+public class CNatureza1 extends MateriasFixas{
+	String conteudo;
+	public CNatureza1 ()
+	{
+		this.conteudo= "Os conteúdos são: "
+				  + "\nBiologia:\r\n"
+				  + "- Origem da Vida, Citologia, Reprodução;\r\n"
+			      + "- Embriologia, Histologia, Seres Vivos;\r\n"
+				  + "- Genética, Evolução e Ecologia.\r\n"
+				  + "\nQuímica:\r\n"
+			      + "- Química Geral, Físico-Química;\r\n"
+			      + "- Química Nuclear e Química Orgânica.\r\n"
+			      + "\nFísica:\r\n"
+			      + "- Mecânica(teorias que explicam o movimento dos corpos);\r\n"
+			      + "- Termologia(conceitos relacionados à temperatura e calor).\r\n";
+				
+	}
+	public String getConteudo() 
+	{
+		return conteudo;
+	}
+	public void setConteudo(String conteudo) 
+	{
+		this.conteudo = conteudo;
+	}
+}

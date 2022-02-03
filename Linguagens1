@@ -1,0 +1,26 @@
+public class Linguagens1 extends MateriasFixas{
+	String conteudo;
+	public Linguagens1 ()
+	{
+		this.conteudo= "Os conteúdos são: "
+				  + "\nArte:\r\n"
+				  + "- Conceitos e técnicas de diversos estilos artísticos.\r\n"
+				  + "\nEducação Física:\r\n"
+			      + "- Práticas corporais e autonomia;;\r\n"
+			      + "- Esportes.\r\n"
+			      + "\nLingua Portuguesa:\r\n"
+			      + "- Ortografia, verbos e as normas da Língua Portuguesa;\r\n"
+			      + "- Teorias de leitura e escrita focadas na produção dos mais diversos gêneros textuais.\r\n"
+			      + "- As origens da literatura mundial e brasileira.\r\n"
+				  + "\nLingua Inglesa:\r\n"
+				  + "- Gramática da Língua Inglesa.\r\n";
+	}
+	public String getConteudo() 
+	{
+		return conteudo;
+	}
+	public void setConteudo(String conteudo) 
+	{
+		this.conteudo = conteudo;
+	}
+}
