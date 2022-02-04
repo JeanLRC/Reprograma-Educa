@@ -2,16 +2,20 @@
 
 public class Ano1 extends MateriasFixas {
 	
+	//ATRIBUTO
 	private int carga;
 	
-	public void cargH(int x)
+	//METODOS - POLIMORFISMO SOBRECARGA
+	public void cargaH(int x)
 	{
 		this.carga=x;
 	}
 	public void cargaH(int x ,int y)
 	{
-		this.carga=x-y;
+		this.carga=x/y;
 	}
+	
+	//GETTERS e SETTERS
 	public int getCarga() {
 		return carga;
 	}

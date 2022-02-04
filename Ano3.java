@@ -1,18 +1,32 @@
 
 public class Ano3 extends MateriasFixas {
 
+	//ATRIBUTO
 	private int carga;
 	
-	public Ano3()
+	//METODOS
+	public void cargaH(int x)
 	{
-		this.carga=carga;
+		this.carga=x;
+	}
+	public void cargaH(int x, int y)
+	{
+		this.carga=x/y;
 	}
 
+	//GETTERS e SETTERS
+	public int getCarga() {
+		return carga;
+	}
+	public void setCarga(int carga) {
+		this.carga = carga;
+	}
 	
+	//METODOS - POLIMORFISMO SOBREESCRITO
 	@Override
 	public void matematica(String materia)
 	{
-		System.out.println("\nOs contéudos são:"
+		System.out.println("\nOs conteúdos de Matemática e Suas Tecnologias do 3° ano são:"
 				+ "\nAritmética:\r\n"
 				+ "- Conjuntos Dos Números Complexos;"
 				+ "- Módulo De Números Complexos;"
@@ -35,7 +49,7 @@ public class Ano3 extends MateriasFixas {
 	@Override
 	public void linguagens(String materia)
 	{
-		System.out.println("\nOs conteúdos são: "
+		System.out.println("\nOs conteúdos de Linguagens e Suas Tecnologias são: "
 				+ "\nLíngua Portuguesa:\r\n"
 				+ "- Estrutura das palavras;"
 				+ "- Processos de formação das palavras;"
@@ -61,7 +75,7 @@ public class Ano3 extends MateriasFixas {
 	@Override
 	public void cHumanas(String materia)
 	{
-		System.out.println("\nOs contéudos são:"
+		System.out.println("\nOs contéudos de Ciência Humanas são:"
 				+ "\nGeografia:\r\n"
 				+ "- Geografia como ciência do espaço;"
 				+ "- Globalização do espaço geográfico;"
@@ -85,7 +99,7 @@ public class Ano3 extends MateriasFixas {
 	@Override
 	public void cNatureza(String materia)
 	{
-		System.out.println("\nOs contéudos são:"
+		System.out.println("\nOs contéudos de Ciência da Natureza são:"
 				+ "\nBiologia:\r\n"
 				+ "- Histologia e fisiologia;"
 				+ "- Genética;"

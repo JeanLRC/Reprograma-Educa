@@ -8,25 +8,22 @@ public abstract class MateriasFixas {
 		private String matematica;
 		
 		//METODOS
-
 		public void matematica(String materia)
 		{
 			this.matematica=matematica;
-			System.out.println("\nOs conteudos de Matemática e suas Tecnologia do 1º ano são: "
-				      + "\nConjuntos Numéricos – Teoria.\r\n"
-				      + "Conjuntos Numéricos – Exercícios.\r\n"
-				      + "Teoria de Conjuntos – Teoria.\r\n"
-				      + "Teoria de Conjuntos – Exercícios.\r\n"
-				      + "Função – Teoria.\r\n"
-				      + "Função – Exercícios.\r\n"
-				      + "Função de 1º Grau (Afim) – Teoria.\r\n"
-				      + "Função de 1º Grau (Afim) – Exercícios.");
+			System.out.println("\nOs conteúdos de Matemática e Suas Tecnologias do 1° ano são:\n"
+					+"\nNúmeros: conhecendo os números"
+					+"\nNúmeros: operações"
+					+"\nÁlgebra"
+					+"\nGeometria"
+					+"\nGrandezas e medidas"
+					+"\nProbabilidade e estatística");
 		}
 		public void linguagens(String materia)
 		{
 			this.linguagens=linguagens;
-			System.out.println("\nOs conteúdos de Linguagens e Suas Tecnologias do 1º ano são: "
-				  + "\nArte:\r\n"
+			System.out.println("\nOs conteúdos de Linguagens e Suas Tecnologias do 1º ano são:\n"
+				  + "\nArte:\n"
 				  + "- Conceitos e técnicas de diversos estilos artísticos.\r\n"
 				  + "\nEducação Física:\r\n"
 			      + "- Práticas corporais e autonomia;;\r\n"
@@ -41,7 +38,7 @@ public abstract class MateriasFixas {
 		public void cHumanas(String materia)
 		{
 			this.cHumanas=cHumanas;
-			System.out.println("\nOs conteúdos de Ciências Humanas e Sociais Aplicadas do 1º são: "
+			System.out.println("\nOs conteúdos de Ciências Humanas e Sociais Aplicadas do 1º são:\n"
 				  + "\nFilosofia:\r\n"
 				  + "- Essência da humanidade e a realidade em que vivemos;\r\n"
 			      + "- Reflexões sobre filósofos e pensadores.\r\n"
@@ -60,7 +57,7 @@ public abstract class MateriasFixas {
 		public void cNatureza(String materia)
 		{
 			this.cNatureza=cNatureza;
-			System.out.println("\nOs conteúdos de Ciências da Natureza e suas Tecnologias do 1º são: "
+			System.out.println("\nOs conteúdos de Ciências da Natureza e suas Tecnologias do 1º são:\n"
 					  + "\nBiologia:\r\n"
 					  + "- Origem da Vida, Citologia, Reprodução;\r\n"
 				      + "- Embriologia, Histologia, Seres Vivos;\r\n"
@@ -73,6 +70,7 @@ public abstract class MateriasFixas {
 				      + "- Termologia(conceitos relacionados à temperatura e calor).\r\n");
 		}
 		
+		//GETTERS e SETTERS
 		public String getLinguagens() {
 			return linguagens;
 		}
